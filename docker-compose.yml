@@ -7,7 +7,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_USER=litblc
-      - MYSQL_PASSWORD=EGzsj2021^^
+      - MYSQL_PASSWORD=LItblc.com2021^^
     ports:
       - "13306:3306"
     expose:
