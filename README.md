@@ -8,6 +8,8 @@ php8+redis+mysql8+nginx 环境脚手架
 
  - 需要调用php脚本的，比如laravel的php artisan，进入php的容器执行，同nginx一样，当前已经挂载了www目录
 
+ - windows上挂载my.cnf会有权限问题，导致mysql无法启动，所以注释掉了这行 `./docker/mysql/etc/my.cnf:/etc/mysql/my.cnf`
+
 ### 常用命令
 ```
 docker-compose up -d
